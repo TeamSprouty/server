@@ -3,7 +3,7 @@ const app = require('./lib/app');
 const http = require('http');
 require('./lib/connect');
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5050;
 const server = http.createServer(app);
 
 server.listen(PORT, () => {
